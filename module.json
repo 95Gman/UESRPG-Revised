@@ -1,0 +1,105 @@
+{
+  "name": "uesrpg-revision",
+  "title": "UESRPG Revision",
+  "description": "A revision of how Qualities and Spell Attributes are shown. With a click of the button, see what a quality is! Also included is a detailed References.",
+  "author": "Gman95",
+  "authors": [],
+  "url": "https://github.com/95Gman/UESRPG-revised",
+  "readme": "https://github.com/95Gman/UESRPG-revised/blob/main/README.md",
+  "bugs": "https://github.com/95Gman/UESRPG-revised/issues",
+  "flags": {},
+  "version": "1.0.3",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "items-revised",
+      "label": "Items Revised",
+      "path": "./packs/items-revised.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "spells-revised",
+      "label": "Spells Revised",
+      "path": "./packs/spells-revised.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "journal",
+      "label": "Reference Revised",
+      "path": "./packs/reference-revised-v1.db",
+      "private": false,
+      "entity": "JournalEntry",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "npc-build-reference-items-revised",
+      "label": "NPC Items Revised",
+      "path": "./packs/npc-build-reference-items-revised.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-beasts-revised",
+      "label": "Scroll of Beasts Revised",
+      "path": "./packs/scroll-of-beasts-revised.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-dwemer-revised",
+      "label": "Scroll of Dwemer Revised",
+      "path": "./packs/scroll-of-dwemer-revised.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-oblivion-revised",
+      "label": "Scroll of Oblivion revised",
+      "path": "./packs/scroll-of-oblivion-revised.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-people-revised",
+      "label": "Scroll of People Revised",
+      "path": "./packs/scroll-of-people-revised.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-undeath-revised",
+      "label": "Scroll of Undeath Revised",
+      "path": "./packs/scroll-of-undeath-revised.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    }
+  ],
+  "system": [],
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
+  "download": "https://github.com/95Gman/UESRPG-revised/archive/refs/tags/1.0.3.zip",
+  "protected": false,
+  "coreTranslation": false
+}
