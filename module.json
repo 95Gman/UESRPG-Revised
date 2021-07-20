@@ -25,7 +25,7 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "npc-reference-revised",
+      "name": "npc-build-reference-revised",
       "label": "NPC Build Reference Revised",
       "path": "./packs/npc-build-reference-revised.db",
       "private": false,
