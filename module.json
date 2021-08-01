@@ -25,9 +25,25 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "npc-build-reference-revised",
-      "label": "NPC Build Reference Revised",
-      "path": "./packs/npc-build-reference-revised.db",
+      "name": "traits-revised",
+      "label": "Traits Revised",
+      "path": "./packs/traits-revised.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "powers-revised",
+      "label": "Powers Revised",
+      "path": "./packs/powers-revised.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "talents-revised",
+      "label": "Talents Revised",
+      "path": "./packs/talents-revised.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
