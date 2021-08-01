@@ -8,7 +8,7 @@
   "readme": "https://github.com/95Gman/UESRPG-revised/blob/main/README.md",
   "bugs": "https://github.com/95Gman/UESRPG-revised/issues",
   "flags": {},
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
@@ -123,7 +123,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
-  "download": "https://github.com/95Gman/UESRPG-revised/archive/refs/tags/1.1.1.zip",
+  "download": "https://github.com/95Gman/UESRPG-revised/archive/refs/tags/1.1.2zip",
   "protected": false,
   "coreTranslation": false
 }
