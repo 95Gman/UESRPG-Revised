@@ -127,6 +127,11 @@
       "name": "compendium-folders",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
       "type": "module"
+    },
+    {
+      "name": "gm-notes",
+      "manifest": "https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json",
+      "type": "module"
     }
   ],
   "socket": false,
