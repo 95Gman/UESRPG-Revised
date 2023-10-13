@@ -11,6 +11,7 @@
     "compatibility": {
         "minimum": "10",
         "verified": "11.311"
+	},
   "scripts": [],
   "esmodules": [],
   "styles": [],
