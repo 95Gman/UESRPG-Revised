@@ -22,7 +22,7 @@
       "label": "Items Revised",
       "path": "./packs/items-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
 	{
@@ -30,7 +30,7 @@
       "label": "Exotic Skills",
       "path": "./packs/exotic-skills.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
 	{
@@ -38,7 +38,7 @@
       "label": "Traits Revised",
       "path": "./packs/traits-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
 	{
@@ -46,7 +46,7 @@
       "label": "Powers Revised",
       "path": "./packs/powers-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
 	{
@@ -54,7 +54,7 @@
       "label": "Talents Revised",
       "path": "./packs/talents-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
     {
@@ -62,7 +62,7 @@
       "label": "Spells Revised",
       "path": "./packs/spells-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
     {
@@ -70,7 +70,7 @@
       "label": "Reference Revised",
       "path": "./packs/reference-revised-v1.db",
       "private": false,
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "system": "uesrpg-d100"
     },
     {
@@ -78,7 +78,7 @@
       "label": "NPC Items Revised",
       "path": "./packs/npc-build-reference-items-revised.db",
       "private": false,
-      "entity": "Item",
+      "type": "Item",
       "system": "uesrpg-d100"
     },
     {
@@ -86,7 +86,7 @@
       "label": "Scroll of Beasts Revised",
       "path": "./packs/scroll-of-beasts-revised.db",
       "private": false,
-      "entity": "Actor",
+      "type": "Actor",
       "system": "uesrpg-d100"
     },
     {
@@ -94,7 +94,7 @@
       "label": "Scroll of Dwemer Revised",
       "path": "./packs/scroll-of-dwemer-revised.db",
       "private": false,
-      "entity": "Actor",
+      "type": "Actor",
       "system": "uesrpg-d100"
     },
     {
@@ -102,7 +102,7 @@
       "label": "Scroll of Oblivion revised",
       "path": "./packs/scroll-of-oblivion-revised.db",
       "private": false,
-      "entity": "Actor",
+      "type": "Actor",
       "system": "uesrpg-d100"
     },
     {
@@ -110,7 +110,7 @@
       "label": "Scroll of People Revised",
       "path": "./packs/scroll-of-people-revised.db",
       "private": false,
-      "entity": "Actor",
+      "type": "Actor",
       "system": "uesrpg-d100"
     },
     {
@@ -118,7 +118,7 @@
       "label": "Scroll of Undeath Revised",
       "path": "./packs/scroll-of-undeath-revised.db",
       "private": false,
-      "entity": "Actor",
+      "type": "Actor",
       "system": "uesrpg-d100"
     }
   ],
