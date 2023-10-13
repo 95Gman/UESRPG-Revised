@@ -1,5 +1,5 @@
 {
-  "name": "uesrpg-revision",
+  "id": "uesrpg-revision",
   "title": "UESRPG Revision",
   "description": "A revision all UESRPG NPCs, items, talents, traits, and more! Also included is a detailed References.",
   "author": "Gman95",
@@ -8,16 +8,17 @@
   "readme": "https://github.com/95Gman/UESRPG-revised/blob/main/README.md",
   "bugs": "https://github.com/95Gman/UESRPG-revised/issues",
   "flags": {},
-  "version": "1.2.0",
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "0.8.8",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11.305"
+	},
   "scripts": [],
   "esmodules": [],
   "styles": [],
   "languages": [],
   "packs": [
     {
-      "name": "items-revised",
+      "id": "items-revised",
       "label": "Items Revised",
       "path": "./packs/items-revised.db",
       "private": false,
@@ -25,7 +26,7 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "exotic-skills",
+      "id": "exotic-skills",
       "label": "Exotic Skills",
       "path": "./packs/exotic-skills.db",
       "private": false,
@@ -33,7 +34,7 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "traits-revised",
+      "id": "traits-revised",
       "label": "Traits Revised",
       "path": "./packs/traits-revised.db",
       "private": false,
@@ -41,7 +42,7 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "powers-revised",
+      "id": "powers-revised",
       "label": "Powers Revised",
       "path": "./packs/powers-revised.db",
       "private": false,
@@ -49,7 +50,7 @@
       "system": "uesrpg-d100"
     },
 	{
-      "name": "talents-revised",
+      "id": "talents-revised",
       "label": "Talents Revised",
       "path": "./packs/talents-revised.db",
       "private": false,
@@ -57,7 +58,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "spells-revised",
+      "id": "spells-revised",
       "label": "Spells Revised",
       "path": "./packs/spells-revised.db",
       "private": false,
@@ -65,7 +66,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "journal",
+      "id": "journal",
       "label": "Reference Revised",
       "path": "./packs/reference-revised-v1.db",
       "private": false,
@@ -73,7 +74,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "npc-build-reference-items-revised",
+      "id": "npc-build-reference-items-revised",
       "label": "NPC Items Revised",
       "path": "./packs/npc-build-reference-items-revised.db",
       "private": false,
@@ -81,7 +82,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "scroll-of-beasts-revised",
+      "id": "scroll-of-beasts-revised",
       "label": "Scroll of Beasts Revised",
       "path": "./packs/scroll-of-beasts-revised.db",
       "private": false,
@@ -89,7 +90,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "scroll-of-dwemer-revised",
+      "id": "scroll-of-dwemer-revised",
       "label": "Scroll of Dwemer Revised",
       "path": "./packs/scroll-of-dwemer-revised.db",
       "private": false,
@@ -97,7 +98,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "scroll-of-oblivion-revised",
+      "id": "scroll-of-oblivion-revised",
       "label": "Scroll of Oblivion revised",
       "path": "./packs/scroll-of-oblivion-revised.db",
       "private": false,
@@ -105,7 +106,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "scroll-of-people-revised",
+      "id": "scroll-of-people-revised",
       "label": "Scroll of People Revised",
       "path": "./packs/scroll-of-people-revised.db",
       "private": false,
@@ -113,7 +114,7 @@
       "system": "uesrpg-d100"
     },
     {
-      "name": "scroll-of-undeath-revised",
+      "id": "scroll-of-undeath-revised",
       "label": "Scroll of Undeath Revised",
       "path": "./packs/scroll-of-undeath-revised.db",
       "private": false,
@@ -122,14 +123,14 @@
     }
   ],
   "system": [],
-  "dependencies": [
+  "relationships.requires": [
     {
-      "name": "compendium-folders",
+      "id": "compendium-folders",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
       "type": "module"
     },
     {
-      "name": "gm-notes",
+      "id": "gm-notes",
       "manifest": "https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json",
       "type": "module"
     }
