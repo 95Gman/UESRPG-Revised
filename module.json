@@ -110,11 +110,6 @@
   ],
   "relationships.requires": [
     {
-      "id": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-      "type": "module"
-    },
-    {
       "id": "gm-notes",
       "manifest": "https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json",
       "type": "module"
@@ -122,6 +117,6 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
-  "download": "https://github.com/95Gman/UESRPG-Revised/releases/download/1.2.1/UESRPG-Revised-1.2.1.zip",
+  "download": "https://github.com/95Gman/UESRPG-Revised/releases/download/1.2.1/UESRPG-Revised-1.2.2.zip",
   "coreTranslation": false
 }
