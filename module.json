@@ -109,7 +109,6 @@
       "system": "uesrpg-d100"
     }
   ],
-  "system": [],
   "relationships.requires": [
     {
       "id": "compendium-folders",
