@@ -122,6 +122,6 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
-  "download": "https://github.com/95Gman/UESRPG-Revised/archive/refs/tags/1.2.1.zip",
+  "download": "https://github.com/95Gman/UESRPG-Revised/releases/download/1.2.1/UESRPG-Revised-1.2.1.zip",
   "coreTranslation": false
 }
